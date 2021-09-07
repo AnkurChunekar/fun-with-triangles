@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
 
-
+<link rel="stylesheet" href="/styles/quiz.css">
 </head>
 
 <body>
@@ -23,19 +23,19 @@
 
     <h1>Quiz on triangle</h1>
 
-    <h4>For each correct answer you will get 1 point</h4>
+    <h4>---For each correct answer you will get 1 point---</h4>
 
     <form id="quiz-form">
-        <div>
-            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+        <div class="question-container" >
+            <p>1) What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
 
             <label> <input name="question1" type="radio" value="45°"> 45° </label>
             <label> <input name="question1" type="radio" value="60°"> 60° </label>
             <label> <input name="question1" type="radio" value="90°"> 90° </label>
         </div>
 
-        <div>
-            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+        <div class="question-container" >
+            <p>2) What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
 
             <label> <input name="question2" type="radio" value="obtuse"> obtuse </label>
             <label> <input name="question2" type="radio" value="acute"> acute </label>
@@ -44,9 +44,10 @@
         </div>
     </form>
 
-    <button id="submit-button">Submit</button>
+    <button id="submit-button">SUBMIT</button>
 
     <div id="output"></div>
+    <hr>
 
     <script src="/scripts/quiz-app.js"></script>
 
