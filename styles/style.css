@@ -14,7 +14,7 @@
 body{
     background-color: #191414;
     color: white; 
-    margin: 0rem;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,6 +44,11 @@ button {
     background-color: #1db954;
     font-weight: bold;
     cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 200;
 }
 
 a {
@@ -76,4 +81,13 @@ hr {
 
 .active {
     text-decoration: underline;
+}
+
+img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2.5rem;
 }

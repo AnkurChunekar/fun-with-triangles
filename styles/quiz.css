@@ -14,7 +14,7 @@
 body{
     background-color: #191414;
     color: white; 
-    margin: 0rem;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -77,4 +77,13 @@ hr {
 
 .active {
     text-decoration: underline;
+}
+
+img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2.5rem;
 }
