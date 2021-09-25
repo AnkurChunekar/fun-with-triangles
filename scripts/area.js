@@ -9,15 +9,14 @@ function calculateProduct(a, b) {
 
 function calculateArea() {
 
-if (inputs[0].value && inputs[1].value !== "") {
-  
+if (inputs[0].value<=0 || inputs[1].value <=0) {
+  output.innerText = "please enter valid values";
+
+} else {
   var answer1 = calculateProduct(Number(inputs[0].value), Number(inputs[1].value));
   
   var area = answer1 / 2;
   output.innerText = "The area of Triangle is " + area + " cm2";
-} else {
-
-  output.innerText = "please enter valid values";
 }
 }
 checkButton.addEventListener("click", calculateArea);
